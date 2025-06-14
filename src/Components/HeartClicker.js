@@ -11,6 +11,9 @@ const HeartClicker = () => {
       <div className="HeartClicker-count">{count} {
         count === 1 ? 'like' : 'likes'
       }</div>
+      {count > 10 && (
+        <div>congrats</div>
+      )}
     </div>
   );
 };
