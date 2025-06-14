@@ -168,3 +168,26 @@ body {
   letter-spacing: 0.5px;
   box-shadow: 0 -2px 8px rgba(0,0,0,0.04);
 }
+
+.HeartClicker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 24px 0 0 0;
+}
+.HeartClicker-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: transform 0.1s;
+}
+.HeartClicker-btn:active {
+  transform: scale(1.2);
+}
+.HeartClicker-count {
+  margin-top: 8px;
+  font-size: 20px;
+  color: #e25555;
+  font-weight: 600;
+}
