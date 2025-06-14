@@ -9,13 +9,23 @@ import HeartClicker from './Components/HeartClicker';
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* ethan */}
+      <Header /> 
       <div className='content'>
+        {/* mei */}
         <HeartClicker />
+
+        {/* ethan */}
         <About />
+
+        {/* mei */}
         <ProjectList />
+
+        {/* ethan */}
         <Contact />
       </div>
+
+      {/* mei */}
       <Footer />
     </div>
   );
