@@ -14,7 +14,7 @@ const projects = [
   },
 ];
 
-function ProjectList() {
+const ProjectList = () => {
   return (
     <section id="projects" className="ProjectList">
       <h2>Projects</h2>
@@ -25,6 +25,6 @@ function ProjectList() {
       </div>
     </section>
   );
-}
+};
 
 export default ProjectList;

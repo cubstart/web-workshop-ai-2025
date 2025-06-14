@@ -1,4 +1,4 @@
-function Header() {
+const Header = () => {
   return (
     <header className="Header">
       <div className="Header-inner">
@@ -12,6 +12,6 @@ function Header() {
       </div>
     </header>
   );
-}
+};
 
 export default Header;

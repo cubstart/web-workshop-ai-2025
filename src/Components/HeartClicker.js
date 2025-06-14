@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function HeartClicker() {
+const HeartClicker = () => {
   const [count, setCount] = useState(0);
 
   return (
@@ -13,6 +13,6 @@ function HeartClicker() {
       }</div>
     </div>
   );
-}
+};
 
 export default HeartClicker;
