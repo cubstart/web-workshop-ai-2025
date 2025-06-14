@@ -137,6 +137,21 @@ h2 {
   box-shadow: 0 2px 12px rgba(0,0,0,0.06);
   padding: 32px;
   margin-bottom: 32px;
+  justify-content: center;
+}
+
+.Contact-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.icon {
+  width: 36px;
+  height: auto;
 }
 
 .Contact a {
