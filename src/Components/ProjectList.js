@@ -1,4 +1,3 @@
-import React from 'react';
 import ProjectCard from './ProjectCard';
 
 const projects = [
@@ -20,7 +19,12 @@ const ProjectList = () => {
       <h2>Projects</h2>
       <div>
         {projects.map((project, idx) => (
-          <ProjectCard key={idx} {...project} />
+            <ProjectCard
+                key={idx}
+                title={project.title}
+                description={project.description}
+                link={project.link}
+            />
         ))}
       </div>
     </section>
