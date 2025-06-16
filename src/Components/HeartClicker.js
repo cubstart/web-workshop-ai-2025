@@ -6,8 +6,8 @@ const HeartClicker = () => {
 
   return (
     <div className="HeartClicker">
-      <button onClick={() => setCount(count + 1)} aria-label="Click to like" className="HeartClicker-btn">
-        <FaHeart style={{ fontSize: '2rem', color: '#e25555' }} aria-label="heart" />
+      <button onClick={() => setCount(count + 1)} className="HeartClicker-btn">
+        <FaHeart style={{ fontSize: '2rem', color: '#e25555' }} />
       </button>
       <div className="HeartClicker-count">{count} {
         count === 1 ? 'like' : 'likes'
